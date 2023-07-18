@@ -1,2 +1,2 @@
 FROM nginx
-COPY /root/.jenkins/workspace/cicdppeline/index.html /var/www/html
+COPY . /usr/share/nginx/index.html
